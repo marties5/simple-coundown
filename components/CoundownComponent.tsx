@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const targetDate = new Date("2033-09-30T00:00:00");
+const targetDate = new Date("2033-12-30T00:00:00");
 
 function getTimeRemaining(target: Date) {
   const now: Date = new Date();
