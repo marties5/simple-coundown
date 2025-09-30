@@ -45,6 +45,9 @@ export default function Countdown() {
     return () => clearInterval(timer);
   }, []);
 
+
+  
+
   return (
     <div className="w-full max-w-5xl">
       <div className="bg-purple-900/50 border-purple-700 shadow-2xl backdrop-blur-sm rounded-2xl">
@@ -55,7 +58,7 @@ export default function Countdown() {
               Countdown Menuju
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-purple-300 font-medium">
-              30 September 2033
+              31 Desember 2033
             </p>
           </div>
 
